@@ -5,7 +5,7 @@ const port = 80;
 app.get('/', (req, res) => {
   res.send('Hello from Node.js app running on custom AMI! by using packer workshop by veera');
 });
-####veera
+// veera
 
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
